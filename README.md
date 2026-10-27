@@ -1,5 +1,4 @@
-# mnist-digit-classification-neural-network
-Handwritten digit classification on MNIST using a feedforward neural network trained with backpropagation, achieving 97.50% test accuracy.
+
 # MNIST Handwritten Digit Classification Using Neural Networks
 
 ## Project Overview
@@ -123,4 +122,33 @@ data/
 ### 4. Run the Notebook
 
 Launch Jupyter Notebook:
+
+## Training Visualizations
+
+The following graphs show how the neural network's accuracy and mean squared error changed during training for two different hyperparameter configurations.
+
+### Experiment 1 — Test Accuracy: 92.73%
+
+**Accuracy vs. Epochs**
+
+![Experiment 1 Accuracy](accuracy_experiment1.png)
+
+**Mean Squared Error vs. Epochs**
+
+![Experiment 1 MSE](mse_experiment1.png)
+
+### Experiment 2 — Test Accuracy: 97.50%
+
+**Accuracy vs. Epochs**
+
+![Experiment 2 Accuracy](accuracy_experiment2.png)
+
+**Mean Squared Error vs. Epochs**
+
+![Experiment 2 MSE](mse_experiment2.png)
+
+### Comparison
+
+Experiment 2 achieved higher training and testing accuracy and lower mean squared error than Experiment 1. The experiments used different learning rates, batch sizes, and training durations.
+
 
